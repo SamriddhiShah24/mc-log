@@ -12,7 +12,7 @@ function login() {
     localStorage.setItem("studentGrade", studentGrade);
 
     console.log("logged in " + studentName + " " + studentEmail + " " + studentGrade);
-    window.location.href="/screen2/home.html";
+    window.location.href="home.html";
 
 
 }
